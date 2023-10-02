@@ -1,215 +1,336 @@
-<nav
-  class="relative flex w-full items-center justify-between bg-neutral-50 py-2 text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-300 dark:shadow-black/5 lg:flex-wrap lg:justify-start"
-  data-te-navbar-ref>
-  <div class="px-6">
-    <button
-      class="border-0 bg-transparent py-3 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
-      type="button"
-      data-te-collapse-init
-      data-te-target="#navbarSupportedContentY"
-      aria-controls="navbarSupportedContentY"
-      aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="[&>svg]:w-8">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-8 w-8">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-      </span>
-    </button>
-    <div
-      class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
-      id="navbarSupportedContentY"
-      data-te-collapse-item>
-      <ul class="mr-auto flex flex-row" data-te-navbar-nav-ref>
-        <li data-te-nav-item-ref>
-          <a
-            class="block py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
-            href="#!"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            >Regular link</a
-          >
-        </li>
-        <li class="static" data-te-nav-item-ref data-te-dropdown-ref>
-          <a
-            class="flex items-center whitespace-nowrap py-2 pr-2 transition duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:px-2"
-            href="#"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            type="button"
-            id="dropdownMenuButtonX"
-            data-te-dropdown-toggle-ref
-            aria-expanded="false"
-            data-te-nav-link-ref
-            >Mega menu
-            <span class="ml-2 w-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                class="h-5 w-5">
-                <path
-                  fill-rule="evenodd"
-                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                  clip-rule="evenodd" />
-              </svg>
-            </span>
-          </a>
-          <div
-            class="absolute left-0 right-0 top-full z-[1000] mt-0 hidden w-full border-none bg-white bg-clip-padding text-neutral-600 shadow-lg dark:bg-neutral-700 dark:text-neutral-200 [&[data-te-dropdown-show]]:block"
-            aria-labelledby="dropdownMenuButtonY"
-            data-te-dropdown-menu-ref>
-            <div class="px-6 py-5 lg:px-8">
-              <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-                <div>
-                  <p
-                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    About me
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >About me</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >EDUCATION</a
-                  >
-                 
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >WORK EXPERIENCE</a
-                  >  
-               
-                <a
-                href="#!"
-                aria-current="true"
-                class="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                >LANGUAGES</a
-              >
-                </div>
-                <div>
-                  <p
-                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    SKILLS
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >TECHNICAL SKILLS</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >SOFT SKILLS</a
-                  >
-               
-                </div>
-                <div>
-                  <p
-                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    PERSONAL PROJECTS
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Lufthansa_APL_Effective_Panels </a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >GBstyle-nails-By-Galya-Lazarova</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Angular-Project-Amigurumi</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Wood-Woord-Bulgaria</a
-                  >
-                </div>
-                <div>
-                  <p
-                    class="block w-full border-b border-neutral-200 px-6 py-2 font-semibold uppercase text-neutral-700 dark:border-neutral-500 dark:text-white">
-                    CERTIFICATES
-                  </p>
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >Angular
-                    </a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >HTML & CSS</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >React -JavaScript</a
-                  >
-                  <a
-                    href="#!"
-                    aria-current="true"
-                    class="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                    >JavaScript Back-End</a
-                  ><a
-                  href="#!"
-                  aria-current="true"
-                  class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                  >JavaScript Applications</a
-                >
-                <a
-                  href="#!"
-                  aria-current="true"
-                  class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                  > JavaScript Advanced</a
-                >
-                <a
-                  href="#!"
-                  aria-current="true"
-                  class="block w-full border-b border-neutral-200 px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:border-neutral-500 dark:hover:bg-neutral-800 dark:hover:text-white"
-                  > Programming Fundamentals with JavaScript</a
-                >
-                <a
-                  href="#!"
-                  aria-current="true"
-                  class="block w-full px-6 py-2 transition duration-150 ease-in-out hover:bg-neutral-50 hover:text-neutral-700 dark:hover:bg-neutral-800 dark:hover:text-white"
-                  > Programming Basics with JavaScript</a
-                >
-                </div>
-              </div>
-            </div>
+<!-- Section: Design Block -->
+<section class="mb-40">
+  <!-- Navbar -->
+  <nav
+    class="relative flex w-full items-center justify-between bg-white py-2 shadow-sm shadow-neutral-700/10 dark:bg-neutral-800 dark:shadow-black/30 lg:flex-wrap lg:justify-start"
+    data-te-navbar-ref>
+    <!-- Container wrapper -->
+    <div class="flex w-full flex-wrap items-center justify-between px-6">
+      <div class="flex items-center">
+        <!-- Toggle button -->
+        <button
+          class="block border-0 bg-transparent py-2 pr-2.5 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+          type="button" data-te-collapse-init data-te-target="#navbarSupportedContentY"
+          aria-controls="navbarSupportedContentY" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="[&>svg]:w-7">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+              <path fill-rule="evenodd"
+                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                clip-rule="evenodd" />
+            </svg>
+          </span>
+        </button>
+
+        <!-- Navbar Brand -->
+        <a class="text-primary dark:text-primary-400" href="#!">
+          <span class="[&>svg]:ml-2 [&>svg]:mr-3 [&>svg]:h-6 [&>svg]:w-6 [&>svg]:lg:ml-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+            </svg>
+          </span>
+        </a>
+      </div>
+
+      <!-- Collapsible wrapper -->
+      <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        id="navbarSupportedContentY" data-te-collapse-item>
+        <!-- Left links -->
+        <!-- <ul class="mr-auto lg:flex lg:flex-row" data-te-navbar-nav-ref>
+                  <li data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light"
+                          disabled>EDUCATION</a>
+                  </li>
+                  <li data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">WORK
+                          EXPERIENCE</a>
+                  </li>
+                  <li class="mb-2 lg:mb-0" data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light">PERSONAL
+                          PROJECTS</a>
+                  </li>
+                  <li data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light"
+                          disabled>LANGUAGES</a>
+                  </li>
+                  <li data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init
+                          data-te-ripple-color="light">CERTIFICATES</a>
+                  </li>
+                  <li class="mb-2 lg:mb-0" data-te-nav-item-ref>
+                      <a class="block py-2 pr-2 text-neutral-500 transition duration-150 ease-in-out hover:text-neutral-600 focus:text-neutral-600 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 dark:disabled:text-white/30 lg:px-2 [&.active]:text-black/80 dark:[&.active]:text-white/80"
+                          href="#!" data-te-nav-link-ref data-te-ripple-init data-te-ripple-color="light"> SKILLS</a>
+                  </li>
+              </ul>
+             -->
+        <ul class="mr-auto lg:flex lg:flex-row" data-te-navbar-nav-ref>
+
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-home03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-home03" data-te-nav-active role="tab"
+              aria-controls="tabs-home03" aria-selected="true">Home</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-profile03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-profile03" role="tab" aria-controls="tabs-profile03"
+              aria-selected="false">EDUCATION</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-messages03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-messages03" role="tab" aria-controls="tabs-messages03"
+              aria-selected="false">WORK EXPERIENCE</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-profile03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-profile03" role="tab" aria-controls="tabs-profile03"
+              aria-selected="false"> SKILLS</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-messages03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-messages03" role="tab" aria-controls="tabs-messages03"
+              aria-selected="false">CERTIFICATES</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-profile03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-profile03" role="tab" aria-controls="tabs-profile03"
+              aria-selected="false">PERSONAL PROJECTS</a>
+          </li>
+          <li role="presentation" class="flex-grow text-center">
+            <a href="#tabs-messages03"
+              class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+              data-te-toggle="pill" data-te-target="#tabs-messages03" role="tab" aria-controls="tabs-messages03"
+              aria-selected="false">LANGUAGES</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+  <!-- Navbar -->
+
+  <!-- SVG Background -->
+  <span class="[&>svg]:absolute [&>svg]:-z-10 [&>svg]:m-auto [&>svg]:block [&>svg]:w-full">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="680"
+      preserveAspectRatio="none" viewBox="0 0 1920 880">
+      <g transform="translate(960,440) scale(1,1) translate(-960,-440)">
+        <linearGradient id="lg-0.047955344060927496" x1="0" x2="1" y1="0" y2="0">
+          <stop stop-color="hsl(217, 88%, 33.7%)" offset="0"></stop>
+          <stop stop-color="hsl(217, 88%, 75.1%)" offset="1"></stop>
+        </linearGradient>
+        <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
+          <animate attributeName="d" dur="33.333333333333336s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+            calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="0s"
+            values="M0 0L 0 804.2328934685746Q 320 597.3613372284876  640 571.0708916590191T 1280 512.0661063245175T 1920 301.8788007488083L 1920 0 Z;M0 0L 0 877.6839081951588Q 320 668.0720922803877  640 649.0018928349388T 1280 328.7087077664202T 1920 162.95038242563396L 1920 0 Z;M0 0L 0 724.9886210051687Q 320 661.4364572061575  640 623.2173947479624T 1280 359.20353038907734T 1920 135.51673041732283L 1920 0 Z;M0 0L 0 804.2328934685746Q 320 597.3613372284876  640 571.0708916590191T 1280 512.0661063245175T 1920 301.8788007488083L 1920 0 Z">
+          </animate>
+        </path>
+        <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
+          <animate attributeName="d" dur="33.333333333333336s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+            calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-6.666666666666667s"
+            values="M0 0L 0 765.7607191473613Q 320 641.7853945676919  640 624.2534689988059T 1280 365.27264408032966T 1920 190.38947978522663L 1920 0 Z;M0 0L 0 842.1984196370487Q 320 570.6690721707517  640 540.6844954979398T 1280 439.92879442880593T 1920 200.29713960445451L 1920 0 Z;M0 0L 0 796.6802345094818Q 320 721.9216894353016  640 696.8815669355181T 1280 373.6367381440213T 1920 196.63169821789495L 1920 0 Z;M0 0L 0 765.7607191473613Q 320 641.7853945676919  640 624.2534689988059T 1280 365.27264408032966T 1920 190.38947978522663L 1920 0 Z">
+          </animate>
+        </path>
+        <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
+          <animate attributeName="d" dur="33.333333333333336s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+            calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-13.333333333333334s"
+            values="M0 0L 0 801.7562714943509Q 320 634.0247183381232  640 605.7090791951217T 1280 503.9393370140325T 1920 224.7551247480177L 1920 0 Z;M0 0L 0 821.0401780336218Q 320 670.8690783540507  640 637.0744123031742T 1280 456.40745286432224T 1920 278.1294357804296L 1920 0 Z;M0 0L 0 744.0534225112256Q 320 637.6425395409125  640 593.2079605185819T 1280 457.03995196824286T 1920 254.87693899994804L 1920 0 Z;M0 0L 0 801.7562714943509Q 320 634.0247183381232  640 605.7090791951217T 1280 503.9393370140325T 1920 224.7551247480177L 1920 0 Z">
+          </animate>
+        </path>
+        <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
+          <animate attributeName="d" dur="33.333333333333336s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+            calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-20s"
+            values="M0 0L 0 817.8603658675457Q 320 592.9404308081629  640 559.1126621853513T 1280 428.9912604821798T 1920 209.017381620229L 1920 0 Z;M0 0L 0 802.0504889976935Q 320 561.3963273210122  640 537.6024084387631T 1280 430.41283267566695T 1920 256.1972069733954L 1920 0 Z;M0 0L 0 789.4448177495887Q 320 561.9675446430498  640 531.6192318019404T 1280 414.76018143244175T 1920 265.9163329632971L 1920 0 Z;M0 0L 0 817.8603658675457Q 320 592.9404308081629  640 559.1126621853513T 1280 428.9912604821798T 1920 209.017381620229L 1920 0 Z">
+          </animate>
+        </path>
+        <path d="" fill="url(#lg-0.047955344060927496)" opacity="0.4">
+          <animate attributeName="d" dur="33.333333333333336s" repeatCount="indefinite" keyTimes="0;0.333;0.667;1"
+            calcmod="spline" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1" begin="-26.666666666666668s"
+            values="M0 0L 0 844.0541574423102Q 320 623.0697081316591  640 592.8483890737847T 1280 469.85448734523794T 1920 190.81850676853674L 1920 0 Z;M0 0L 0 871.4928294956283Q 320 618.9784567388518  640 593.1183717103518T 1280 376.5051942642811T 1920 141.32293927545027L 1920 0 Z;M0 0L 0 782.0118384610068Q 320 727.3267836497654  640 694.0476176759635T 1280 518.1545471640493T 1920 276.0053882957168L 1920 0 Z;M0 0L 0 844.0541574423102Q 320 623.0697081316591  640 592.8483890737847T 1280 469.85448734523794T 1920 190.81850676853674L 1920 0 Z">
+          </animate>
+        </path>
+      </g>
+    </svg>
+  </span>
+  <!-- SVG Background -->
+
+  <!-- Jumbotron -->
+  <div class="w-100 mx-auto px-6 sm:max-w-2xl md:max-w-3xl md:px-12 lg:max-w-5xl xl:max-w-7xl xl:px-32">
+    <div class="text-center">
+      <div
+        class="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,15%,0.8)] dark:shadow-black/20 md:py-16 md:px-12"
+        style="
+            margin-top: 180px;
+            backdrop-filter: saturate(200%) blur(25px);
+          ">
+        <div class="flex flex-wrap">
+          <div class="w-full shrink-0 grow-0 basis-auto md:w-2/12 lg:w-3/12">
+            <img src="assets/logoZdravka.jpg" class="mb-6 w-full rounded-lg shadow-lg dark:shadow-black/20"
+              alt="Avatar" />
           </div>
-        </li>
-      </ul>
+
+          <div class="w-full shrink-0 grow-0 basis-auto text-center md:w-10/12 md:pl-6 md:text-left lg:w-9/12">
+            <h5 class="mb-6 text-xl font-semibold">Zdravka Goranova</h5>
+            <ul class="list-inside mb-6 flex justify-center space-x-4 md:justify-start">
+              <a href="#!">
+                <!-- Email -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-full w-4" fill="currentColor"
+                  viewBox="0 0 24 24" height="1em" viewBox="0 0 512 512">
+                  <path
+                    d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+                </svg>
+
+
+              </a>
+              <a href="https://www.linkedin.com/in/zdravka-goranova/">
+                <!-- Linkedin -->
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+              </svg>
+              </a>
+              <a href="https://github.com/ZdravkaGoranova">
+                <!-- Github -->
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="mx-auto h-full w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+              </a>
+            </ul>
+            <p>
+              I've gained hands-on experience with JavaScript through my active enrollment at
+              Software University for over 1.5 years. My time there has not only deepened my
+              knowledge but has also fueled my ambition to embark on a professional
+              journey in this field. My big passion is programming. I love mathematics and a
+              creative side that finds expression
+              through drawing. Below, you'll find links to some of the projects and
+              professional training modules.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
+  <!-- Jumbotron -->
+</section>
+<!-- Section: Design Block -->
+
+
+<!-- 
+<ul
+  class="mr-4 flex list-none flex-col flex-wrap pl-0"
+  role="tablist"
+  data-te-nav-ref>
+  <li><div class="text-center">
+    <img
+      src="assets/logoZdravka.jpg"
+      class="mx-auto mb-4 w-32 rounded-lg"
+      alt="Avatar" />
+    <h5 class="mb-2 text-xl font-medium leading-tight">John Doe</h5>
+    <p class="text-neutral-500 dark:text-neutral-400">Web designer</p>
+  </div></li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-home03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-home03"
+      data-te-nav-active
+      role="tab"
+      aria-controls="tabs-home03"
+      aria-selected="true"
+      >Home</a
+    >
+  </li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-profile03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-profile03"
+      role="tab"
+      aria-controls="tabs-profile03"
+      aria-selected="false"
+      >EDUCATION</a
+    >
+  </li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-messages03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-messages03"
+      role="tab"
+      aria-controls="tabs-messages03"
+      aria-selected="false"
+      >WORK EXPERIENCE</a
+    >
+  </li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-profile03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-profile03"
+      role="tab"
+      aria-controls="tabs-profile03"
+      aria-selected="false"
+      > SKILLS</a
+    >
+  </li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-messages03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-messages03"
+      role="tab"
+      aria-controls="tabs-messages03"
+      aria-selected="false"
+      >CERTIFICATES</a
+    >
+  </li>  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-profile03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-profile03"
+      role="tab"
+      aria-controls="tabs-profile03"
+      aria-selected="false"
+      >PERSONAL PROJECTS</a
+    >
+  </li>
+  <li role="presentation" class="flex-grow text-center">
+    <a
+      href="#tabs-messages03"
+      class="my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 text-xs font-medium uppercase leading-tight text-neutral-500 hover:isolate hover:border-transparent hover:bg-neutral-100 focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:text-primary dark:text-neutral-400 dark:hover:bg-transparent dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+      data-te-toggle="pill"
+      data-te-target="#tabs-messages03"
+      role="tab"
+      aria-controls="tabs-messages03"
+      aria-selected="false"
+      >LANGUAGES</a
+    >
+  </li>
+</ul>
+ -->
