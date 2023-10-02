@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+  scrollToSkills(sectionId: string) {
+    const skillsSection = document.getElementById(sectionId);
+    if (skillsSection) {
+      skillsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 }
