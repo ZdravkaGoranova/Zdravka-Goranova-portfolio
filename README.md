@@ -32,21 +32,24 @@ The front end of the project has been deploy in Firebase: [https://zdravka-goran
 ## Home Page
 ![](/start.jpg)
 
-## Validation Error
-![](/ValidationError.jpg)
+## Education
+![](/education.jpg)
 
-## Result
-![](/result.jpg)
+## Work
+![](/work.jpg)
 
-## No match
-![](/Nomatch.jpg)
+## languages
+![](/languages.jpg)
+
+## Prodject
+![](/prodject.jpg)
 
 
 
 # MyProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
-
+This project was bootstrapped with Angular. Single Page App (SPA) Used Тailwind.
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
