@@ -1,3 +1,48 @@
+# Zdravka-Goranova-portfolio
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+#  Angular-Project-Amigurumi
+
+This application is used to search for effective panels by submitted documentation of a customer of Lufthansa Technician Sofia. Upload the pdf documentation for a particular aircraft , then upload the excel with certain panels . After pressing the button submit is displayed in the result section whether there are or not matches and how many are .
+
+The front end of the project has been deploy in Firebase: [https://zdravka-goranova-portfolio.web.app)
+
+## Short description
+ - This project was bootstrapped with [Angular](https://github.com/facebook/angular).
+ - Single Page App (SPA) 
+ - Deploy in Firebase [https://zdravka-goranova-portfolio.web.app](https://zdravka-goranova-portfolio.web.app)
+ ## Usage
+- npm i
+- ng serve
+
+## Languages and libraries used
+ - Javascript
+ - HTML/CSS
+ - Тailwind
+ - Angular
+
+ ## Architecture - the project is structured
+ 
+ - `dist` folder contains global asssets for the app.
+ - `src` folder contains the app, index.html, styles.css, environments and folders for the components, modules, app.interceptor.ts,routing.module and service.
+
+ 
+# Routes views
+
+## Home Page
+![](/start.jpg)
+
+## Validation Error
+![](/ValidationError.jpg)
+
+## Result
+![](/result.jpg)
+
+## No match
+![](/Nomatch.jpg)
+
+
+
 # MyProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
