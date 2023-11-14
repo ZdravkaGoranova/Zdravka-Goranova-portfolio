@@ -1,0 +1,13 @@
+li {
+    list-style-type: disc;
+    margin-left: 3rem;
+    font-style: italic;
+    opacity: 0.8; 
+
+}
+ul{
+    padding-bottom: 1rem;
+}
+p {
+    text-align: justify;
+}
