@@ -26,7 +26,7 @@ This project was bootstrapped with Angular. Single Page App (SPA) Used Тailwind
 # Routes views
 
 ## Home Page
-![](/start.jpg)
+![](/portFolio.jpg)
 
 ## Education
 ![](/education.jpg)
