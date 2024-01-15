@@ -38,7 +38,7 @@ This project was bootstrapped with Angular. Single Page App (SPA) Used Тailwind
 ![](/languages.jpg)
 
 ## Prodject
-![](/prodject.jpg)
+![](/prodjectN.jpg)
 
 
 ## Development server
